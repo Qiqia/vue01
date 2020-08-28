@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # myproject
 
 > first project
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# vue01
+vue结构
+>>>>>>> a5c2ec2ed8df9f5390d151b41edbc9dfaab29632
