@@ -23,7 +23,7 @@ git
 *.idea/*
 **/target
 
-=======
+
 # Logs
 logs
 *.log
@@ -128,4 +128,3 @@ dist
 
 # TernJS port file
 .tern-port
->>>>>>> a5c2ec2ed8df9f5390d151b41edbc9dfaab29632
