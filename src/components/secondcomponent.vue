@@ -19,7 +19,8 @@ export default {
     }
   },
     mounted() {
-        this.$http.jsonp('https://api.douban.com/v2/movie/top250?count=10', {}, {
+        // this.$http.jsonp('https://api.douban.com/v2/movie/top250?count=10', {}, {
+        this.$http.jsonp('https://baidu.com', {}, {
             headers: {
 
             },
@@ -32,6 +33,7 @@ export default {
             // this.articles = response.data["subjects"] 也可以
 
         }, function(response) {
+            this.articles = [{"title":"复活"},{"title":"战争与和平"},{"title":"安娜·卡列尼娜"}];
             // 这里是处理错误的回调
             console.log(response)
         });
